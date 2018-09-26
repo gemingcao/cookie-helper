@@ -16,7 +16,7 @@
         "psr-4": {
             "Gemingcao\\Helper\\": "src/"
         }
-    }],
+    },
     "support": {
         "source": "https://github.com/gemingcao/cookie-helper.git"
     },
