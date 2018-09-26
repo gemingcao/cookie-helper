@@ -1,0 +1,26 @@
+{
+    "name": "gemingcao/cookie-helper",
+    "description": "This is a general-purpose class that allows to manage PHP built-in cookies and the cookies variables passed via $_COOKIE superglobal",
+    "type": "library",
+    "keywords": ["cookie","helper"],
+    "homepage": "http://github.com/gemingcao/cookie-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gemingcao",
+            "email": "gemingcao@qq.com",
+            "homepage": "http://www.gemingcao.com/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gemingcao\\Helper\\": "src/"
+        }
+    }],
+    "support": {
+        "source": "https://github.com/gemingcao/cookie-helper.git"
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+}
