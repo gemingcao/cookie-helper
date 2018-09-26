@@ -62,7 +62,7 @@ class CookieHelper implements \ArrayAccess, \Countable, \IteratorAggregate
         $value = $this->exists($key) ? $this->strEncryption($_COOKIE[$key], 'DECODE') : $default;
         if (in_array($origin_key, $this->settings['mustInt'])) {
             $value = intval($value);
-        } elseif (in_array($origin_key, $this->$this->settings['mustFilter'])) {
+        } elseif (in_array($origin_key, $this->settings['mustFilter'])) {
             $value = $this->safeFilter($value);
         }
         return $value;
