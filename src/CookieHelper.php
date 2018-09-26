@@ -25,7 +25,7 @@ class CookieHelper implements \ArrayAccess, \Countable, \IteratorAggregate
     {
         $defaults = [
             'lifetime'     => 3600,
-            'pre'     => 'csgrrj_',
+            'pre'     => 'gmc_',
             'encrypt'    => 'T8boJ9anvC2lnudH',
             'path'         => '/',
             'domain'       => '',
